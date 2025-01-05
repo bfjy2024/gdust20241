@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>2024-2025-1 期末材料检查清单</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .teacher-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .item {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="section-title">2024-2025-1 期末材料检查清单</h1>
+
+<h2 class="section-title">纸质材料:</h2>
+
+<div>
+    <h3 class="teacher-name">王贺元老师:</h3>
+    <div class="item">
+        <input type="checkbox" id="wang1" onclick="toggleCheck(this)">
+        <label for="wang1">1. 考试大纲缺第3页</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="wang2" onclick="toggleCheck(this)">
+        <label for="wang2">2. 成绩登记表未按页码打印</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="wang3" onclick="toggleCheck(this)">
+        <label for="wang3">3. 装订封面“笔试”、“闭卷”未全勾选</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="wang4" onclick="toggleCheck(this)">
+        <label for="wang4">4. 签到表装订反了</label>
+    </div>
+</div>
+
+<div>
+    <h3 class="teacher-name">谢仰森老师:</h3>
+    <div class="item">
+        <input type="checkbox" id="xie1" onclick="toggleCheck(this)">
+        <label for="xie1">1. 装订封面未用黑色签字笔填写</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="xie2" onclick="toggleCheck(this)">
+        <label for="xie2">2. 试卷缺少总分栏</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="xie3" onclick="toggleCheck(this)">
+        <label for="xie3">3. 试卷分析较少</label>
+    </div>
+</div>
+
+<h2 class="section-title">电子材料:</h2>
+
+<div>
+    <h3 class="teacher-name">汤四平老师:</h3>
+    <div class="item">
+        <input type="checkbox" id="tang1" onclick="toggleCheck(this)">
+        <label for="tang1">1.</label>
+    </div>
+    <div class="item">
+        <input type="checkbox" id="tang2" onclick="toggleCheck(this)">
+        <label for="tang2">2.</label>
+    </div>
+</div>
+
+<script>
+    function toggleCheck(checkbox) {
+        checkbox.checked = !checkbox.checked;
+    }
+</script>
+
+</body>
+</html>
